@@ -1,0 +1,18 @@
+ ---------- Post ----------
+ 
+ API for to creating mentor
+ API for to creating student
+
+---------- Patch ---------- 
+ 
+ API for to assign unassigned student/students to a mentor
+ API for to assign/change mentor for perticular student
+
+ ---------- Get ----------
+ 
+ API for to get all mentors
+ API for to get all students
+
+ API for to get unassigned mentors
+
+ API for to get all students for perticular mentor

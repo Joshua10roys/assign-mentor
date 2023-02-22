@@ -26,7 +26,7 @@ patchRouter.use("/assignMentor", async (request, response) => {
             // adding student to mentor
             let result = await Mentor.findByIdAndUpdate(
                 mentor_id,
-                { students: student_id },
+                { $addToSet: { students: student_id } },
                 { returnOriginal: false }
             );
 
